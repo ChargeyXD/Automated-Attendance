@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Video Feed</title>
+{% endblock %}
+
+{% block body %}
+<h1>Video Feed</h1>
+<img src="{{url_for(video)}}" width="640" height="480">
+{% endblock %}
