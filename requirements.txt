@@ -1,2 +1,5 @@
 Flask
 Flask-SQLAlchemy
+dlib
+face-recognition
+cvzone
